@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: PocketAuthor Support
+    url: https://www.pocketauthor.com/support
+    about: Account, product, and general support
+  - name: PocketAuthor Public Repository
+    url: https://github.com/Pocket-Author/PocketAuthor-Public
+    about: Public documentation, workflows, positioning, and community resources
+  - name: Security
+    url: https://github.com/Pocket-Author/.github/blob/main/SECURITY.md
+    about: Please do not disclose vulnerabilities in a public issue
