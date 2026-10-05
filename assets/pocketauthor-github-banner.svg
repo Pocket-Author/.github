@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">PocketAuthor — From body of work to book</title>
+<desc id="desc">PocketAuthor organization banner with an open-book mark and the phrase From body of work to book.</desc>
+<rect width="1200" height="360" rx="32" fill="#f6f0e5"/>
+<rect x="34" y="34" width="1132" height="292" rx="24" fill="#fffdf8" stroke="#ded2c0" stroke-width="2"/>
+<g transform="translate(92 91)">
+  <path d="M0 34c44-24 89-24 133 0v142c-44-24-89-24-133 0V34Z" fill="#183c3a"/>
+  <path d="M133 34c44-24 89-24 133 0v142c-44-24-89-24-133 0V34Z" fill="#9a4438"/>
+  <path d="M133 44v126" stroke="#fffdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M181 79h28m-14-14v28" stroke="#fffdf8" stroke-width="8" stroke-linecap="round"/>
+</g>
+<text x="414" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#183c3a">PocketAuthor</text>
+<text x="418" y="194" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#4f4943">From body of work to book.</text>
+<text x="418" y="246" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#6f665e">Write · research · verify · produce · publish · grow</text>
+</svg>
