@@ -1,0 +1,53 @@
+name: Public data correction
+description: Correct or improve a PocketAuthor directory or public-data entry
+title: "[Data]: "
+labels:
+  - data
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options:
+        - Bookstores
+        - Publishers
+        - Grants / funding
+        - Literary events
+        - Book clubs
+        - Literary organizations
+        - Book professionals
+        - Rights network
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name or URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary or authoritative source
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Date checked
+      placeholder: YYYY-MM-DD
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am not including private data, credentials, or copyrighted text that cannot be redistributed.
+          required: true
