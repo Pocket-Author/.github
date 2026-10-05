@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible PocketAuthor problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve PocketAuthor. Do not include passwords, API keys, private manuscript text, or personal data.
+  - type: input
+    id: route
+    attributes:
+      label: Affected URL, route, or area
+      placeholder: https://www.pocketauthor.com/... or /route
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. Observe...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser / device / environment
+      placeholder: Chrome 149 on macOS, iPhone Safari, local dev, production...
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, logs, or extra context
+      description: Redact credentials and private content.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed secrets, private manuscript content, and unnecessary personal data.
+          required: true
